@@ -1,0 +1,45 @@
+.main-banner {
+    background-image: url('../images/main-banner.png');
+    aspect-ratio: 1440/768;
+    padding: 190px 0;
+}
+
+.main-banner__wrapper {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+}
+
+.main-banner__content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+}
+
+.main-banner__content h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+.main-banner__content h3 {
+    font-size: 36px;
+    font-weight: 400;
+}
+.main-banner__content button {
+    background: #FFC957;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px 80px;
+    border: none;
+}
+
+.main-banner__social {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.main-banner__social-items {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
