@@ -1,3 +1,7 @@
+body { 
+    font-family: Arial, sans-serif;
+}
+
 .main-banner {
     background-image: url('../images/main-banner.png');
     aspect-ratio: 1440/768;
@@ -20,16 +24,19 @@
     font-size: 64px;
     font-weight: 700;
 }
+
 .main-banner__content h3 {
     font-size: 36px;
     font-weight: 400;
 }
+
 .main-banner__content button {
     background: #FFC957;
     font-size: 18px;
     font-weight: 500;
     padding: 20px 80px;
     border: none;
+    cursor: pointer;
 }
 
 .main-banner__social {
@@ -38,8 +45,327 @@
     justify-content: end;
 }
 
-.main-banner__social-items {
+.main-banner__social {
     display: flex;
     flex-direction: column;
     gap: 60px;
 }
+
+.services {
+    padding: 80px 0;
+}
+
+.services__title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.services__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.services__card {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.services__card img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.services__card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.services__card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.services__card a {
+    font-size: 16px;
+    color: #65256F;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: white;
+}
+
+h3 {
+    margin: 0;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.production-section {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.production-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+}
+
+.production-container img {
+    width: 368px;
+    height: 300px;
+}
+
+.custom-production-section {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.custom-production-title {
+    display: inline-block;
+    position: relative;
+    font-size: 32px;
+    margin: 40px 0;
+    padding: 0 20px;
+}
+
+.custom-production-title::before,
+.custom-production-title::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    border-top: 1px solid #000;
+}
+
+.custom-production-title::before {
+    left: -60px;
+}
+
+.custom-production-title::after {
+    right: -60px;
+}
+
+.custom-production-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+}
+
+.custom-production-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 268px;
+    height:  387px;
+}
+
+.custom-production-container img {
+    width: 368px;
+    height: 300px;
+}
+
+.custom-production-container p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.price-button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background: #65256F;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.clients {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.clients-title {
+    display: inline-block;
+    position: relative;
+    font-size: 32px;
+    margin: 40px 0;
+    padding: 0 20px;
+}
+
+.clients-title::before,
+.clients-title::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    border-top: 1px solid #000;
+}
+
+.clients-title::before {
+    left: -60px;
+}
+
+.clients-title::after {
+    right: -60px;
+}
+
+/* Добавленный код для секции "Наша команда" */
+.team-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+.team-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-photo {
+    width: 440px;
+    height: 368px;
+    border-radius: 10px;
+    margin: 0 auto 15px;
+}
+
+.member-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.member-role {
+    font-size: 14px;
+    color: #666;
+}
+
+.aplication-tittle {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 12px;
+
+}
+
+.aplication-tittle__text {
+    color: #585858;
+    text-align: center;
+    margin-right: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.aplication-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.input-box {
+    width: 300px; 
+    height: 50px; 
+    border: none; 
+    border-radius: 4px; 
+    padding: 10px; 
+    font-size: 16px;
+    background-color: #E5E5E5; 
+    outline: none; 
+}
+
+.input-box:focus {
+    outline: 2px solid #0000FF;
+}
+
+.input__box {
+    width: 300px;
+    height: 50px; 
+    border: none; 
+    border-radius: 4px; 
+    padding: 10px;
+    font-size: 16px;
+    background-color: #E5E5E5; 
+    outline: none; 
+}
+
+.input__box:focus {
+    outline: 2px solid #0000FF;
+}
+
+.aplication-button {
+    width: 226px;
+    height: 51px;
+    padding: 13px 68px;
+    background: #65256F;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.aplication-input button {
+    margin-left: 20px;
+}
+
+a

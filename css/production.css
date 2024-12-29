@@ -1,0 +1,47 @@
+.production__gallery img {
+    width: 368px;
+    height: 328px;
+    margin: 0 10px;
+}
+
+.equipment__image img {
+    width: 1168px;
+    height: 326px;
+    display: block;
+    margin: 20px auto;
+}
+
+.footer {
+    background-color: #333;
+    margin-top: 60px;
+    color: #fff;
+    padding: 30px 20px;
+}
+
+.footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-column {
+    width: 200px;
+}
+
+.footer-column h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.footer-column p,
+.footer-column a {
+    font-size: 14px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+

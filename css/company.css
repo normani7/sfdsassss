@@ -1,0 +1,159 @@
+
+.header {
+    padding: 8px 0;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+}
+
+.header__nav-links {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+
+.header__nav-links a {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+.header__nav-button {
+    padding: 12px 30px;
+    background: #65256F;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.img_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1168px;
+    height: 400px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.img_icon {
+    width: 1168px; 
+    height: 400px; 
+    background-image: url('..//images/imgicon.png'); 
+    background-repeat: no-repeat;
+    background-position: top center; 
+    background-size: cover; 
+}
+
+.about-company, .what-we-do {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(252, 251, 251);
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #666;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service {
+    flex: 0 0 48%;
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.service p {
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    margin-top: 60px;
+}
+
+.advantage-title {
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.advantage-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+    column-gap: 196px;
+}
+
+.footer {
+    background-color: #333;
+    margin-top: 60px;
+    color: #fff;
+    padding: 30px 20px;
+}
+
+.footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-column {
+    width: 200px;
+}
+
+.footer-column h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.footer-column p,
+.footer-column a {
+    font-size: 14px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
